@@ -39,6 +39,7 @@ The following images show the web application's appearance and functionality:
 
 ![](./assets/First.PNG)
 
+![](./assets/Second.PNG)
 
 ### Deployment
 
