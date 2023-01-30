@@ -6,16 +6,16 @@ const app = express();
 
 
 router.get("/notes", function (req, res) {
-    res.sendFile(path.join(__dirname, "../public/notes.html"));
+    res.sendFile(path.join(__dirname, "../Public/index.html"));
 });
 
 
 router.get("*", function (req, res) {
-    res.sendFile(path.join(__dirname, "../public/index.html"));
+    res.sendFile(path.join(__dirname, "../Public/index.html"));
 });
 
 router.get("/", function (req, res) {
-    res.sendFile(path.join(__dirname, "../public/index.html"));
+    res.sendFile(path.join(__dirname, "../Public/index.html"));
 });
 
 module.exports = router;
