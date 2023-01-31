@@ -6,7 +6,7 @@ const app = express();
 
 
 router.get("/notes", function (req, res) {
-    res.sendFile(path.join(__dirname, "../Public/index.html"));
+    res.sendFile(path.join(__dirname, "../Public/notes.html"));
 });
 
 
